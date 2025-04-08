@@ -1,0 +1,28 @@
+# Flutter
+.dart_tool/
+.packages
+.pub-cache/
+flutter_*.png
+build/
+.generated/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# iOS
+ios/Flutter/Flutter.podspec
+ios/Flutter/App.framework
+ios/.symlinks/
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/DerivedData/
+ios/.dart_tool/
+ios/Flutter/.last_build_id
+
+# Android
+android/.gradle/
+android/app/key.jks
+android/key.properties
+
+# IDEs
+.idea/
+.vscode/

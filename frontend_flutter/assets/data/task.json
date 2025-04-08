@@ -1,0 +1,18 @@
+[
+  {
+    "id": "t1",
+    "name": "Comprar víveres",
+    "description": "Ir al súper por frutas y verduras",
+    "time": "2025-04-08T10:00:00",
+    "priority": "TaskPriority.high",
+    "isCompleted": false
+  },
+  {
+    "id": "t2",
+    "name": "Revisar correos",
+    "description": "Responde a clientes",
+    "time": "2025-04-08T12:00:00",
+    "priority": "TaskPriority.medium",
+    "isCompleted": false
+  }
+]
