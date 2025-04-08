@@ -1,0 +1,26 @@
+# React Native
+node_modules/
+android/.gradle/
+android/app/build/
+ios/Pods/
+ios/build/
+ios/DerivedData/
+*.log
+*.keystore
+*.xcuserstate
+
+# Metro / Cache
+.expo/
+.expo-shared/
+*.bundle
+*.map
+*.tmp
+*.tsbuildinfo
+
+# Env
+.env
+.env.*
+
+# IDEs
+.vscode/
+.idea/

@@ -1,37 +1,17 @@
-# Node.js
+# General
+.env
+.env.*
+*.log
+*.swp
+.DS_Store
+.vscode/
+.idea/
+
+# Global Node junk
 node_modules/
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
 pnpm-debug.log*
-.env
-.env.local
-.env.development
-.env.production
-.env.test
-.env.*.local
-
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-pnpm-debug.log*
-lerna-debug.log*
-.log
-
-# TypeScript
-*.tsbuildinfo
-*.swp
-
-# Build outputs
-dist/
-out/
-.next/
-.cache/
-.vscode/
-.idea/
-.DS_Store
 
 # Docker
 docker-compose.override.yml
@@ -42,21 +22,3 @@ docker-compose.prod.yml
 # GitHub Actions
 .github/workflows/*/*.log
 .github/actions/cache
-
-# Flutter (Si decides mantenerlo en el mismo repo)
-**/android/.gradle/
-**/android/app/key.jks
-**/android/key.properties
-**/ios/Pods/
-**/ios/.symlinks/
-**/ios/Flutter/Flutter.podspec
-**/ios/Flutter/App.framework
-**/.dart_tool/
-**/.packages
-**/.flutter-plugins
-**/.flutter-plugins-dependencies
-
-# Secrets & Credentials
-secrets/
-config/secrets.json
-firebase-adminsdk.json
