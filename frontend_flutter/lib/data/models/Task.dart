@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'dart:convert';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:uuid/uuid.dart';
@@ -39,8 +38,8 @@ abstract class Task {
 
   Future<void> safeToMemory() async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-    String taskJson = jsonEncode(this.toJson());
-    prefs.setString('task_${this.name}', taskJson);
+    String taskJson = jsonEncode(toJson());
+    prefs.setString('task_$name', taskJson);
     print("Task $name saved to memory");
   }
 

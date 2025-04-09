@@ -2,18 +2,12 @@ import 'Task.dart';
 
 class SimpleTask extends Task {
   SimpleTask({
-    required String name,
-    required String description,
-    required DateTime time,
-    required TaskPriority priority,
-    bool isCompleted = false,
-  }) : super(
-    name: name,
-    description: description,
-    time: time,
-    priority: priority,
-    isCompleted: isCompleted,
-  );
+    required super.name,
+    required super.description,
+    required super.time,
+    required super.priority,
+    super.isCompleted,
+  });
 
   @override
   void markAsCompleted() {

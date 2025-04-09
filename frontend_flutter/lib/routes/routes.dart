@@ -1,4 +1,3 @@
-import 'package:frontend_flutter/modules/auth/auth_screen.dart';
 import 'package:frontend_flutter/modules/modules.dart';
 import 'package:get/get.dart';
 

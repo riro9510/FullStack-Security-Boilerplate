@@ -1,25 +1,18 @@
 import 'Task.dart';
-import 'package:flutter/material.dart';
 
 class RecurringTask extends Task {
   String recurrencePattern;
   DateTime? deadline;
 
   RecurringTask({
-    required String name,
-    required String description,
-    required DateTime time,
-    required TaskPriority priority,
-    required bool isCompleted,
+    required super.name,
+    required super.description,
+    required super.time,
+    required super.priority,
+    required super.isCompleted,
     required this.recurrencePattern,
     required this.deadline,
-  }) : super(
-    name: name,
-    description: description,
-    time: time,
-    priority: priority,
-    isCompleted: isCompleted,
-  );
+  });
 
   @override
   void markAsCompleted() {

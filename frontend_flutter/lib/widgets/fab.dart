@@ -4,7 +4,7 @@ import 'package:frontend_flutter/data/data.dart';
 class CustomFAB extends StatelessWidget {
   final List<ActionsFloatingButton> actions;
 
-  CustomFAB({required this.actions});
+  const CustomFAB({super.key, required this.actions});
 
   @override
   Widget build(BuildContext context) {

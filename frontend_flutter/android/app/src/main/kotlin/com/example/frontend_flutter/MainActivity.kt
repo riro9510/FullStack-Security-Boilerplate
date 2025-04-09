@@ -1,5 +1,6 @@
-package com.example.frontend_flutter
+package com.example.frontend_flutter.MainActivity
 
-import io.flutter.embedding.android.FlutterActivity
+import io.flutter.embedding.android.FlutterFragmentActivity
 
-class MainActivity : FlutterActivity()
+class MainActivity: FlutterFragmentActivity() {
+}
