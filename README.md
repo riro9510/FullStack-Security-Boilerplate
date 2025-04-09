@@ -7,7 +7,7 @@
 ## 🚀 Overview
 
 This repository is my fullstack developer portfolio – a technical showcase of my ability to structure clean, modular, and scalable code across both web and mobile platforms.  
-The project is currently in progress and evolving daily. The core focus is quality over quantity: **fewer screens, higher polish, deeper architecture**.
+The project is currently under construction many things are not available yet. The core focus is quality over quantity: **fewer screens, higher polish, deeper architecture**.
 
 ### 🎯 Purpose
 
@@ -19,18 +19,18 @@ The project is currently in progress and evolving daily. The core focus is quali
 ---
 
 ## 🛠️ Tech Stack
-
+/ Some of the features are implemented while others are not yet. You can, however, evaluate architecture.
 ### Backend
 - **NestJS** – Modular server-side application framework
 - **PostgreSQL** – Structured relational data
 - **MongoDB** – Unstructured error/event logging and notifications
 - **Docker** – Containerized development environment
-- **JWT Auth** + **Role-based access control**
+- **JWT Auth** + **Role-based access control** 
 - **Two-factor authentication** 
 
 ### Frontend (Web)
 - **React** with **Material UI**
-- Login + Dashboard views with responsive components
+- Login + Dashboard views with responsive components 
 
 ### Mobile
     - **Flutter** – Flutter – Primary mobile app with biometric login, push notifications, and task management features (such as adding tasks, subtasks, marking as completed, etc.).
